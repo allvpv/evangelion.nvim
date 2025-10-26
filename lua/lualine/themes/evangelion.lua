@@ -4,11 +4,11 @@ local evangelion = {}
 evangelion.normal = {
 	a = { bg = nge.dummyplug, fg = nge.core },
 	b = { bg = nge.atfield, fg = nge.dispair },
-	c = { bg = nge.midnight, fg = nge.rei },
+	c = { bg = nge.s2engine, fg = nge.rei },
 	x = { bg = nge.kaji, fg = nge.core },
 }
 evangelion.inactive = {
-	c = { bg = nge.midnight, fg = nge.lost },
+	a = { bg = nge.longingus, fg = nge.shinji },
 }
 evangelion.insert = {
 	a = { bg = nge.kaworu, fg = nge.core },
@@ -24,7 +24,7 @@ evangelion.replace = {
 }
 evangelion.terminal = {
 	a = { bg = nge.terminaldogma, fg = nge.core },
-	b = { bg = nge.atfield, fg = nge.terminaldogma },
+	b = { bg = nge.atfield, fg = nge.kaworu },
 }
 evangelion.command = {
 	a = { bg = nge.adam, fg = nge.core },
