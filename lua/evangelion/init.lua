@@ -42,7 +42,7 @@ function NGE.getintherobotshinji(opts)
 	end
 	local palette = require("evangelion.unit01").get()
   vim.g.terminal_color_0 = palette.bg
-  vim.g.terminal_color_8 = palette.shinji
+  vim.g.terminal_color_8 = palette.fog
   vim.g.terminal_color_1 = palette.error
   vim.g.terminal_color_9 = palette.misato
   vim.g.terminal_color_2 = palette.terminaldogma
